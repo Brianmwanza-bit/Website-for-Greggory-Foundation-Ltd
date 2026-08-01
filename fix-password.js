@@ -1,7 +1,7 @@
 const db = require('./backend/config/database');
 const bcrypt = require('bcryptjs');
 
-const email = 'admin@greggoryfoundation.org';
+const email = 'admin@thegreggorysystemsandstrategyfirm.org';
 const password = 'admin123';
 const hash = bcrypt.hashSync(password, 10);
 
